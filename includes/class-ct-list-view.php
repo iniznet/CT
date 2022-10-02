@@ -354,6 +354,7 @@ if ( ! class_exists( 'CT_List_View' ) ) :
 
             global $ct_table, $ct_list_table;
 
+            $this->init();
             $ct_list_table->prepare_items();
 
             $bulk_counts = array(
